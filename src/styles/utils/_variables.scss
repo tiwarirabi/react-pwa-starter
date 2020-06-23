@@ -1,0 +1,12 @@
+// colors
+$colors: (
+    primary-blue: #22A5FF,
+   
+    tertiary-grey: #F8F8F8,
+
+    primary-white: #FFFFFF,
+);
+
+@function color($color) {
+  @return map_get($colors, $color)
+};
